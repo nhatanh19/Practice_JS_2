@@ -23,7 +23,7 @@
 
 ## SOURCE CODE
 
-- Clone project : git clone `https://github.com/nhatanh19/Practice_JS_1.git`
+- Clone project : git clone `https://github.com/nhatanh19/Practice_JS_2`
 - Design : `https://www.figma.com/design/qmyCULWxoPV9AhWmzfJ8Zk/%C3%81nh-js`
 
 ## HOW TO RUN
