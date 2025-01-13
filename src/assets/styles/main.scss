@@ -1,0 +1,46 @@
+// src/assets/styles/main.scss
+// Reset và variables
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+// Layout
+.page-header {
+    padding: 1rem;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+.navigation {
+    padding: 1rem;
+    background: #f8f9fa;
+
+    a {
+        margin-right: 1rem;
+        color: var(--primary-color);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.main-content {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}

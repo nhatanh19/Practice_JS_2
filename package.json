@@ -1,0 +1,32 @@
+{
+    "name": "practice_js_2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint src/**/*.js",
+        "format": "prettier --write \"src/**/*.{js,scss,html}\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nhatanh19/Practice_JS_2.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/nhatanh19/Practice_JS_2/issues"
+    },
+    "homepage": "https://github.com/nhatanh19/Practice_JS_2#readme",
+    "description": "",
+    "devDependencies": {
+        "eslint": "^9.18.0",
+        "prettier": "^3.4.2",
+        "sass": "^1.83.1",
+        "vite": "^6.0.7"
+    }
+}
