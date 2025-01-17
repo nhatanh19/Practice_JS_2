@@ -1,17 +1,28 @@
+@use "./_variables"as *;
+@use "./_functions"as *;
+
 @mixin flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
+}
+
 @mixin responsive($breakpoint) {
-    @if $breakpoint == mobile {
-        @media (max-width: $mobile) { @content; }
+    @if $breakpoint==mobile {
+        @media (max-width: $mobile) {
+            @content;
+        }
     }
-    @if $breakpoint == tablet {
-        @media (max-width: $tablet) { @content; }
+
+    @if $breakpoint==tablet {
+        @media (max-width: $tablet) {
+            @content;
+        }
     }
-    @if $breakpoint == desktop {
-        @media (max-width: $desktop) { @content; }
+
+    @if $breakpoint==desktop {
+        @media (max-width: $desktop) {
+            @content;
+        }
     }
 }
