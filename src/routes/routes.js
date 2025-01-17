@@ -13,6 +13,10 @@ import {
     LoginPage
 } from '../views/pages/login.js';
 
+import {
+    RegisterPage
+} from '../views/pages/signup.js';
+
 export const routes = {
     '/': {
         component: HomePage,
@@ -29,5 +33,9 @@ export const routes = {
     '/login': {
         component: LoginPage,
         title: 'Login'
+    },
+    '/signup': {
+        component: RegisterPage,
+        title: 'Sign Up'
     }
 };

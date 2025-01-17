@@ -2,7 +2,7 @@
 @use "./abstracts/_mixins"as *;
 @use "./abstracts/_functions"as *;
 @use './pages/login';
-
+@use './pages/signup';
 :root {
     --primary-color: #007bff;
     --secondary-color: #6c757d;
@@ -30,12 +30,10 @@ body {
 .navigation {
     padding: 1rem;
     background: #f8f9fa;
-
     a {
         margin-right: 1rem;
         color: var(--primary-color);
         text-decoration: none;
-
         &:hover {
             text-decoration: underline;
         }
