@@ -9,6 +9,10 @@ import {
     NotFoundPage
 } from '../views/pages/not-found.js';
 
+import {
+    LoginPage
+} from '../views/pages/login.js';
+
 export const routes = {
     '/': {
         component: HomePage,
@@ -21,5 +25,9 @@ export const routes = {
     '/404': {
         component: NotFoundPage,
         title: 'Page Not Found'
+    },
+    '/login': {
+        component: LoginPage,
+        title: 'Login'
     }
 };
