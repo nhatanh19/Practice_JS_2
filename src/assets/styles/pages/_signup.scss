@@ -15,6 +15,7 @@
             object-position: center;
         }
         &__overlay {
+            min-width: 325px;
             position: absolute;
             inset: 64px 43px;
             background-color: rgba(255, 255, 255, 0.8);
@@ -44,6 +45,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        min-width: 520px;
         &__content {
             width: 480px;
         }
@@ -129,5 +131,14 @@
             font-size: 24px;
             text-decoration: underline;
         }
+        @include responsive('tablet') {
+            min-width: 0;
+            &__content {
+                width: 80%;
+            }
+        }
+    }
+    @media (max-width: 945px) {
+        flex-direction: column;
     }
 }
