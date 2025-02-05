@@ -17,6 +17,8 @@ import {
     RegisterPage
 } from '../views/pages/signup.js';
 
+import SuccessPage from "../views/pages/success";
+
 export const routes = {
     '/': {
         component: HomePage,
@@ -37,5 +39,9 @@ export const routes = {
     '/signup': {
         component: RegisterPage,
         title: 'Sign Up'
+    },
+    '/success-verify-email': {
+        component: SuccessPage,
+        title: 'Success verry email your hotel'
     }
 };
