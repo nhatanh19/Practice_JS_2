@@ -1,5 +1,11 @@
-// src/assets/styles/main.scss
-// Reset và variables
+@use "./abstracts/_variables"as *;
+@use "./abstracts/_mixins"as *;
+@use "./abstracts/_functions"as *;
+@use './pages/login';
+@use './pages/signup';
+@use './pages/success';
+@use './layouts/dashboard';
+
 :root {
     --primary-color: #007bff;
     --secondary-color: #6c757d;
