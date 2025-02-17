@@ -4,6 +4,7 @@
 @use './pages/login';
 @use './pages/signup';
 @use './pages/success';
+@use './layouts/dashboard';
 
 :root {
     --primary-color: #007bff;

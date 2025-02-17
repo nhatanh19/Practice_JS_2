@@ -19,6 +19,8 @@ import {
 
 import SuccessPage from "../views/pages/success";
 
+import DashboardAdmin from "../views/pages/dashboardAdmin.js";
+
 export const routes = {
     '/': {
         component: HomePage,
@@ -43,5 +45,9 @@ export const routes = {
     '/success-verify-email': {
         component: SuccessPage,
         title: 'Success verry email your hotel'
+    },
+    '/dashboard-admin': {
+        component: DashboardAdmin,
+        title: 'Admin Dashboard'
     }
 };
